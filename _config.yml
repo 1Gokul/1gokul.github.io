@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : Welcome to my github.io page. # site tagline that appears below site title in masthead
 name                     : "Gokul Viswanath"
 description              : ""
-url                      : #"https://1gokul.github.io"
+url                      : "https://1gokul.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "1Gokul/1gokul.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
