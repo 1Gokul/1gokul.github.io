@@ -22,7 +22,7 @@ The Stamina bar shows changes when the Character sprints or successively blocks 
 Movement of the Character uses a 1D BlendSpace for gradually changing from Idle to Walk to Run Animations, 
     depending on the speed of the Character.
 
-### In Action 
+#### In Action 
 
 - While Unarmed and not in Combat Mode
 <iframe src="https://www.youtube.com/embed/vVXSP_3Dkjk" width="560" height="315" frameborder="0"> </iframe> 

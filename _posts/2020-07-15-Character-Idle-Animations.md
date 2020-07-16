@@ -12,7 +12,6 @@ This function chooses one random number from [0 -> NumberOfAnimations - 1] and a
 a variable called IdleAnimSlot. NumberOfAnimations is unique for every Player State (i.e UnarmedNormal, Armed-OneHanded).
 
 ```cpp 
-
 /**
  * Every time after an Idle Animation plays, the base Idle Animation should be played.
  * After the base Idle Animation is complete, one of the other Idle Animations will be randomly chosen.
@@ -28,7 +27,6 @@ void AMain::IdleEnd(int32 PlayerStatusNo)
   // else return back to the Original Idle state.
 	else IdleAnimSlot = 0;
 }
-
 ```
 
 In the Character's Anim Blueprint,  out of a set of Idle Animations, one will be chosen at random and will play on the Character.
@@ -36,7 +34,7 @@ In the Character's Anim Blueprint,  out of a set of Idle Animations, one will be
 Once that Idle Animation finishes playing, it will return to the original Idle State and will wait again 
 for the same amount of time (10 seconds), playing another Idle Animation if the Player does not do anything even then.
 
-### In Action 
+#### In Action 
 
 - While Unarmed and not in Combat Mode
 <iframe src="https://www.youtube.com/embed/tc39nbjUEmc" width="560" height="315" frameborder="0"> </iframe> 
