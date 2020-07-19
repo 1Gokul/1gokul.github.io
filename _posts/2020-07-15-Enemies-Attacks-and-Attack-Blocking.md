@@ -8,7 +8,7 @@ title: "Enemies, Enemy Attacks and Attack Blocking"
 For now, the Player will face Enemies of only one type - Minion. These Minion assets were sourced from the **Paragon: Minions** Asset Pack
 from the Epic Games Store. I will be adding more Enemies very soon from the **Infinity Blade: Adversaries** Asset Pack. 
 
-An Enemy's Collision Volume are as below:
+An Enemy's Collision Volumes are as below:
 
 <img src = "/postassets/MinionSpheres.png"  style="border:5px solid black">
 

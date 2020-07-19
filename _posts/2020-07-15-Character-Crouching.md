@@ -13,6 +13,8 @@ A separate Crouched BlendSpace is used for the Movement Animations of the Charac
 When the Character is in either the *Armed-OneHanded* or *Armed-TwoHanded* mode, it's Idle Animation is Blended with the Crouched BlendSpace
 i.e the Idle Animation will play above the Pelvis, while the Crouched BlendSpace will play below the Pelvis.
 
+<img src = "/postassets/CrouchedLayeredBlendPerBone.png"  style="border:5px solid black">
+
 For now, there is only one Attack Animation for the Character. I will add more when I can find them in Mixamo or when I make them 
 myself in Blender (Which I hope to do soon).
 

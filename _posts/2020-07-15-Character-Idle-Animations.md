@@ -8,7 +8,37 @@ title: "Character Idle Animations"
 If the Player does not perform any action on the Character for an amount of time(taken as 10 seconds), 
 a C++ function "IdleEnd" gets called.
 
-This function chooses one random number from [0 -> NumberOfAnimations - 1] and assigns this value to 
+The code below in Main's Tick function sets a Timer if the Player is not moving.
+
+```cpp
+	// If IdleTimer is not active and Player is not crouched
+	if (!GetWorldTimerManager().IsTimerActive(IdleAnimTimerHandle) && !bCrouched)
+	{
+		// If an Idle Animation is not already playing AND the Player is not moving
+		if (IdleAnimSlot == 0
+			&& (Cast<UMainAnimInstance>(GetMesh()->GetAnimInstance())->MovementSpeed == 0))
+		{
+			// Start the Timer and set it for IdleTimeLimit seconds.
+			GetWorldTimerManager().SetTimer(IdleAnimTimerHandle, TimerDel, IdleTimeLimit, false);
+		}
+	}
+```
+If the Player performs any action, the `IdleTimer` is paused and the `IdleAnimSlot` is set to zero.
+
+```cpp
+void AMain::ResetIdleTimer()
+{
+	// Reset the Idle Anim Slot
+	IdleAnimSlot = 0;
+
+	// Pause IdleAnimTimerHandle if Active
+	if (GetWorldTimerManager().IsTimerActive(IdleAnimTimerHandle))
+	{
+		GetWorldTimerManager().PauseTimer(IdleAnimTimerHandle);
+	}
+}
+```
+The below function chooses one random number from [0 -> NumberOfAnimations - 1] and assigns this value to 
 a variable called IdleAnimSlot. NumberOfAnimations is unique for every Player State (i.e UnarmedNormal, Armed-OneHanded).
 
 ```cpp 
