@@ -1,0 +1,53 @@
+---
+layout: archive
+author_profile: true
+title: "Contact Me"
+---
+
+<style type="text/css">
+  #submit {
+   background-color: #bbb;
+   padding: .5em;
+   /* -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 6px; */
+   color: #fff;
+   font-size: 20px;
+   text-decoration: none;
+   border: none;
+  }
+  #submit:hover {
+   border: none;
+   background: #30e3ca;
+   box-shadow: 0px 0px 1px #777;
+  }
+  </style>
+
+
+<form
+  action="https://formspree.io/xpzykayl"
+  method="POST"
+>
+  <label>
+    Your email:   <i style="color:red">(required)</i>
+    <input type="email" name="_replyto" required>
+  </label>
+  <label>
+    Your name:   <i style="color:red">(required)</i>
+    <input type="text" name="_name" required>
+  </label>
+  <label>
+    Your company:   <i style="color:red">(required)</i>
+    <input type="text" name="_company" required>
+  </label>
+  <label>
+    Your message:
+    <textarea name="message" placeholder="Type your message here..." ></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <h5><i>Your email and other details will NOT be used for any other purposes.</i></h5>
+
+  <button id="submit" type="submit"><strong>SEND</strong></button>
+</form>

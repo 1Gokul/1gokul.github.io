@@ -1,10 +1,10 @@
 main:
   - title: "DevBlogs"
-    url: /posts_list/
+    url: /categories/
   - title: "Projects"
     url: /projects/
   - title: "Contact Me"
-    url: "mailto:xskiddmcmarx@gmail.com"
+    url: "/contactme/"
   # - title: "Tags"
   #   url: /tags/
   # - title: "Pages"

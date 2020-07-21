@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: "Pause Menu"
+categories: "MedievalCombat"
 ---
 
 ## MedievalCombatProject

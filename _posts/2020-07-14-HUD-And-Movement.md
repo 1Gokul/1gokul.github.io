@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: "Character Movement and HUD"
+categories: "MedievalCombat"
 ---
 
 
@@ -13,7 +14,7 @@ The Health bar will will show changes when the Character takes damage or heals t
 
 The Stamina bar shows changes when the Character sprints or successively blocks an Enemy's attack.
 
-<img src = "/postassets/Basic HUD.png"  style="border:5px solid black">
+<img src = "/postassets/BasicHUD.png"  style="border:5px solid black">
 
 <!-- <blockquote class="imgur-embed-pub" lang="en" data-id="SFPNkGe"><a href="https://imgur.com/SFPNkGe">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> -->
 

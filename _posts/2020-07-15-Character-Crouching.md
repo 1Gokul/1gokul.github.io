@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: "Character Crouching"
+categories: "MedievalCombat"
 ---
 
 ## MedievalCombatProject

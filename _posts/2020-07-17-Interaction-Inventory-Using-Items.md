@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: "Interaction, Inventory and Using Items"
+categories: "MedievalCombat"
 ---
 
 ## MedievalCombatProject
@@ -55,7 +56,7 @@ appears next to the pointer to show the Item's name, description and an Use text
 
 Clicking on the Item slot calls a virtual function `UseItem()` declared in `Item`.
 
-If the Item was labeled as Consumable, it would be spawned with scale `(0.0, 0.0, 0.0)` and if labeled as Equippable, `(1.0, 1.0, 1.0).
+If the Item was labeled as Consumable, it would be spawned with scale `(0.0, 0.0, 0.0)` and if labeled as Equippable, `(1.0, 1.0, 1.0)`.
 A Consumable Item's Quantity would also be decremented after calling its `UseItem()` function.
 
 Following is `UseItem()` defined in class `Weapon`. Using the Item removes the currently Equipped Weapon and attaches

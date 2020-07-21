@@ -1,6 +1,7 @@
 ---
 layout: posts
-author_profile: true
+title: "My First Post"
+categories: "Other"
 ---
 
  *Is this thing on?*

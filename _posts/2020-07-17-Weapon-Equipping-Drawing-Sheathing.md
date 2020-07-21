@@ -1,11 +1,12 @@
 ---
 layout: posts
 title: "Weapon Sheathing and Drawing"
+categories: "MedievalCombat"
 ---
 
 ## MedievalCombatProject
 
-When the Player presses the R key, the Character changes into *Combat Mode*, which makes them ready for combat.
+When the Player presses the **R** key, the Character changes into *Combat Mode*, which makes them ready for combat.
 
 If the Character has a Weapon equipped, pressing **R** would toggle Sheathing and Drawing the Weapon.
 If no Weapon was equipped, the Character would be ready for melee combat.
