@@ -78,7 +78,7 @@ bool AWeapon::UseItem(AMain* Main)
 		}
 	}
 
-	Main->SetCurrentWeapon(this);
+	Main->SetEquippedWeapon(this);
 
 	// Disable collision of the CollisionVolume
 	CollisionVolume->SetCollisionEnabled(ECollisionEnabled::NoCollision);

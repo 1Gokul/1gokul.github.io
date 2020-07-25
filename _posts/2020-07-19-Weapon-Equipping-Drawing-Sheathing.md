@@ -23,14 +23,14 @@ void AMain::SheatheWeapon()
 	bAttacking = false;
 
 
-	if (bIsWeaponDrawn && CurrentWeapon)
+	if (bIsWeaponDrawn && EquippedWeapon)
 	{
 		bIsWeaponDrawn = false;
 
 		// Play the Sheath sound
-		if (CurrentWeapon->OnSheathSound)
+		if (EquippedWeapon->OnSheathSound)
 		{
-			UGameplayStatics::PlaySound2D(this, CurrentWeapon->OnSheathSound);
+			UGameplayStatics::PlaySound2D(this, EquippedWeapon->OnSheathSound);
 		}
 
 		// Play the Sheath Animation
@@ -40,7 +40,7 @@ void AMain::SheatheWeapon()
 		{
 			AnimInstance->Montage_Play(UpperBodyMontage, 1.0f);
 
-			if (CurrentWeapon->bIsTwoHanded)
+			if (EquippedWeapon->bIsTwoHanded)
 				AnimInstance->Montage_JumpToSection(FName("SheatheWeapon_TwoHanded"), UpperBodyMontage);
 
 			else AnimInstance->Montage_JumpToSection(FName("SheatheWeapon_OneHanded"), UpperBodyMontage);
@@ -55,17 +55,17 @@ by a *BlueprintCallable* function, `TimedSheathe`:
 ```cpp
 void AMain::TimedSheathe()
 {
-	if (CurrentWeapon)
+	if (EquippedWeapon)
 	{
-		CurrentWeapon->DeactivateCollision();
+		EquippedWeapon->DeactivateCollision();
 
-		CurrentWeapon->SetInstigator(nullptr);
+		EquippedWeapon->SetInstigator(nullptr);
 
-		const USkeletalMeshSocket* SheathSocket = GetMesh()->GetSocketByName(CurrentWeapon->SheathSocketName);
+		const USkeletalMeshSocket* SheathSocket = GetMesh()->GetSocketByName(EquippedWeapon->SheathSocketName);
 
 		if (SheathSocket)
 		{
-			SheathSocket->AttachActor(CurrentWeapon, GetMesh());
+			SheathSocket->AttachActor(EquippedWeapon, GetMesh());
 		}
 	}
 }	
@@ -82,14 +82,14 @@ void AMain::DrawWeapon()
 {
 	bInCombatMode = true;
 
-	if (!bIsWeaponDrawn && CurrentWeapon)
+	if (!bIsWeaponDrawn && EquippedWeapon)
 	{
 		bIsWeaponDrawn = true;
 
 		// Play the Draw sound
-		if (CurrentWeapon->OnEquipSound)
+		if (EquippedWeapon->OnEquipSound)
 		{
-			UGameplayStatics::PlaySound2D(this, CurrentWeapon->OnEquipSound);
+			UGameplayStatics::PlaySound2D(this, EquippedWeapon->OnEquipSound);
 		}
 
 		// Play the Draw Animation
@@ -99,7 +99,7 @@ void AMain::DrawWeapon()
 		{
 			AnimInstance->Montage_Play(UpperBodyMontage, 1.0f);
 
-			if (CurrentWeapon->bIsTwoHanded)
+			if (EquippedWeapon->bIsTwoHanded)
 				AnimInstance->Montage_JumpToSection(FName("DrawWeapon_TwoHanded"), UpperBodyMontage);
 			else AnimInstance->Montage_JumpToSection(FName("DrawWeapon_OneHanded"), UpperBodyMontage);
 		}
@@ -112,15 +112,15 @@ by a *BlueprintCallable* function, `TimedDraw`:
 ```cpp 
 void AMain::TimedDraw()
 {
-	if (CurrentWeapon)
+	if (EquippedWeapon)
 	{
-		CurrentWeapon->SetInstigator(nullptr);
+		EquippedWeapon->SetInstigator(nullptr);
 
-		const USkeletalMeshSocket* RightHandSocket = GetMesh()->GetSocketByName(CurrentWeapon->HandSocketName);
+		const USkeletalMeshSocket* RightHandSocket = GetMesh()->GetSocketByName(EquippedWeapon->HandSocketName);
 
 		if (RightHandSocket)
 		{
-			RightHandSocket->AttachActor(CurrentWeapon, GetMesh());
+			RightHandSocket->AttachActor(EquippedWeapon, GetMesh());
 		}
 	}
 }
