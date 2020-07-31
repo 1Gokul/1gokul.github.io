@@ -54,7 +54,10 @@ bool AMain::bCanMove(float Value)
 - While Armed with a One-Handed Weapon
 <iframe src="https://www.youtube.com/embed/pOGELCzg5UA" width="560" height="315" frameborder="0"> </iframe> 
 
-- While Armed with a Two-Handed Weapon (Bug: Character rises above the ground. Will be patched soon.)
+- While Armed with a Two-Handed Weapon(OLD) ~~(Bug: Character rises above the ground. Will be patched soon.)~~Fixed 28/07/20
+<iframe src="https://www.youtube.com/embed/jpWaXgGB_vg" width="560" height="315" frameborder="0"> </iframe> 
+
+- While Armed with a Two-Handed Weapon (NEW)
 <iframe src="https://www.youtube.com/embed/jpWaXgGB_vg" width="560" height="315" frameborder="0"> </iframe> 
 
 

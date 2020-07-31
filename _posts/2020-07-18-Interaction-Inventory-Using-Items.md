@@ -45,8 +45,7 @@ void AItem::Interact(AActor* Interacter)
 
 #### Inventory menu
 
-The Inventory menu is toggled by the Tab key and shows a grid of the Items that the Character has in its Inventory. The menu
-can also be closed by clicking on a button on the top right.
+The Inventory menu is toggled by the Tab key and shows a grid of the Items that the Character has in its Inventory.
 
 - Inventory menu
 <iframe src="https://www.youtube.com/embed/TqSOrnQjPPs" width="560" height="315" frameborder="0"> </iframe> 

@@ -4,6 +4,16 @@ layout: archive
 
 {{ content }}
 
+
+<footer class="page__meta">
+  {% if site.data.ui-text[site.locale].meta_label %}
+    <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+  {% endif %}
+  {% include page__taxonomy.html %}
+  {% include page__date.html %}
+</footer>
+
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}

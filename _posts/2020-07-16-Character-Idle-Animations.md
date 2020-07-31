@@ -76,8 +76,11 @@ for the same amount of time (10 seconds), playing another Idle Animation if the 
 - While Armed with a One-Handed Weapon
 <iframe src="https://www.youtube.com/embed/KqrbYdRlxcw" width="560" height="315" frameborder="0"> </iframe> 
 
-- While Armed with a Two-Handed Weapon (Bug: Character rises above the ground. Will be patched soon.)
+- While Armed with a Two-Handed Weapon(OLD) ~~(Bug: Character rises above the ground. Will be patched soon.)~~Fixed 28/07/20
 <iframe src="https://www.youtube.com/embed/nVskVluF3to" width="560" height="315" frameborder="0"> </iframe> 
+
+- While Armed with a Two-Handed Weapon(NEW)
+<iframe src="https://www.youtube.com/embed/nVskVluF3to" width="560" height="315" frameborder="0"> </iframe>
 
 
 
