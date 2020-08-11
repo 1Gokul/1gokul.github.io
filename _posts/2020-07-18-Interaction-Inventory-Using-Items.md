@@ -20,6 +20,7 @@ This functionality was done by making a class `UInteractInterface` deriving from
 [Interface](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Interfaces/index.html) C++ class.  
 This InteractInterface has a virtual function `Interact(AActor* Interacter)` that gets overriden in `Item` like so:
 
+#### Interact()
 ```cpp
 void AItem::Interact(AActor* Interacter)
 {
@@ -61,6 +62,7 @@ A Consumable Item's Quantity would also be decremented after calling its `UseIte
 Following is `UseItem()` defined in class `Weapon`. Using the Item removes the currently Equipped Weapon and attaches
 itself to the required socket.
 
+#### UseItem()
 ```cpp
 bool AWeapon::UseItem(AMain* Main)
 {

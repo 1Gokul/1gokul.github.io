@@ -26,6 +26,7 @@ The code below in Main's Tick function sets a Timer if the Player is not moving.
 ```
 If the Player performs any action, the `IdleTimer` is paused and the `IdleAnimSlot` is set to zero.
 
+#### ResetIdleTimer()
 ```cpp
 void AMain::ResetIdleTimer()
 {
@@ -42,6 +43,7 @@ void AMain::ResetIdleTimer()
 The below function chooses one random number from [0 -> NumberOfAnimations - 1] and assigns this value to 
 a variable called IdleAnimSlot. NumberOfAnimations is unique for every Player State (i.e UnarmedNormal, Armed-OneHanded).
 
+#### IdleEnd()
 ```cpp 
 /**
  * Every time after an Idle Animation plays, the base Idle Animation should be played.

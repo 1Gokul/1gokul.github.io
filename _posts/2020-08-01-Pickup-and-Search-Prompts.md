@@ -31,6 +31,7 @@ Logic for displaying and removing the widget has been done in Blueprints as it i
 The virtual `OnOverlapBegin(...)` function below has been defined in the `Item` parent class. Also, every child `Item` that overrides this function
 also calls the parent's version, using `Super::OnOverlapBegin(...)`.
 
+#### OnOverlapBegin()
 ```cpp
 void AItem::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
                            int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -56,6 +57,7 @@ The Item's Name, Weight and Value are passed through and are used in the `MainPl
 
 Similarly, the virtual `OnOverlapEnd` function below is defined in the `Item` class and is called by the children classes which override the function.
 
+#### OnOverlapEnd()
 ```cpp
 void AItem::OnOverlapEnd(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,
                          int32 OtherBodyIndex)

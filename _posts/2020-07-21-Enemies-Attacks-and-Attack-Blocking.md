@@ -32,6 +32,7 @@ Enemy performs an attack.
 
 Attack Animations for Enemies are kept together in an Animation Montage. Out of the set of Animations, one is chosen at random.
 
+#### Attack()
 ```cpp
 void AEnemy::Attack()
 {
@@ -78,6 +79,7 @@ Character's health, along with calling functions to emit blood particles and pla
 The hit reaction animations are not picked at random, but are related to the `AttackSection` shown above AND if the Character is facing the
 attacking Enemy. As a result, the appropriate animation plays in reaction to the Enemy's attack.
 
+#### InflictDamageOnMain()
 ```cpp
 void AEnemy::InflictDamageOnMain(AMain* Main, bool bHitFromBehind)
 {
@@ -157,6 +159,7 @@ Facing an Enemy means that the Enemy should be inside the Character's Field of V
 
 The code snippet below shows how this is done: (Note: The Character's name is "Main")
 
+#### CombatOnOverlapBegin()
 ```cpp
 void AEnemy::CombatOnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
                                   UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep,
