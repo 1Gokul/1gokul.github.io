@@ -255,8 +255,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll (~> 3.9)
   jekyll-include-cache
-  kramdown (>= 2.3.0)
 
 BUNDLED WITH
    2.1.4
