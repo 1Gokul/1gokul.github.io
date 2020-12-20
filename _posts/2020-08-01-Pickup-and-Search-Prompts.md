@@ -80,6 +80,7 @@ The Blueprint implementation to remove the prompt is as follows:
 *(Move the mouse while holding the Right Mouse Button down to see the entire Blueprint.)*
 <iframe src="https://blueprintue.com/render/zozqtwx9" width="700" height="560" scrolling="no" allowfullscreen></iframe>
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
 
 #### In Action 
 

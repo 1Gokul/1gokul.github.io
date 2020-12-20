@@ -50,6 +50,8 @@ So as a result, the Character can strafe depending on the input instead of alway
  - Made the camera smoothly zoom in and out when the Character enters and leaves Combat Mode.
  - Added a crosshair that appears when the Character goes into Combat Mode.
 
+ You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 #### The Result! 
 
 - Unarmed 

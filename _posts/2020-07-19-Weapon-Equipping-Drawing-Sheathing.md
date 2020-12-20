@@ -129,6 +129,8 @@ Similarly, this function is called as an Anim Notify in the Sheathing Animation,
 
 <img src = "/postassets/TimedDraw.png"  style="border:5px solid black" alt="Drawing One-Handed">
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 #### In Action 
 
 - One-Handed Weapon

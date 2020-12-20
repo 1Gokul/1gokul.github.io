@@ -24,6 +24,8 @@ The game saves automatically once the Player enters a new map/level.
 **Load** Uses the same `ItemStorage` to load the last save. I plan to add a list of the player's last 5 saves to the menu in case
 the Player wishes to make multiple saves.
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 #### Saving and Loading
 
 - Game saves on changing level

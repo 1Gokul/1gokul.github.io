@@ -19,6 +19,8 @@ i.e the Idle Animation will play above the Pelvis, while the Crouched BlendSpace
 For now, there is only one Attack Animation for the Character. I will add more when I can find them in Mixamo or when I make them 
 myself in Blender (Which I hope to do soon).
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 #### In Action 
 
 - While Unarmed

@@ -67,6 +67,8 @@ In the Character's Anim Blueprint,  out of a set of Idle Animations, one will be
 Once that Idle Animation finishes playing, it will return to the original Idle State and will wait again 
 for the same amount of time (10 seconds), playing another Idle Animation if the Player does not do anything even then.
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 #### In Action 
 
 - While Unarmed and not in Combat Mode

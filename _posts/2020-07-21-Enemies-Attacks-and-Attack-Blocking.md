@@ -237,6 +237,8 @@ If the attack was blocked, the Character's Stamina will reduce by `BlockStaminaC
 Additionally, if a Two-Handed Weapon was used for blocking, the Character's Health will decrease by an amount `DamageIfBlocked`, 
 as Weapons cannot block as effectively as Shields.
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 ### Blocking in Action 
 
 - One-Handed Weapon + Shield

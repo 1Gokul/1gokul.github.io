@@ -69,6 +69,8 @@ lets the Character move faster at the cost of using up Stamina by an amount `Sta
 Once the Stamina gets depleted, the Stamina Bar will turn red and the Character will not be able to sprint till the Stamina regenerates to a value greater than
 `MinSprintStamina`, ater which the Stamina bar turns green again. I plan to add a pulsing effect soon.
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 #### In Action
 
 - Sprinting while Unarmed

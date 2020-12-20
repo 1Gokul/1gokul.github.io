@@ -24,5 +24,7 @@ Also made a small 'tickmark' appear next to the Save or Load buttons when the Pl
 The problem of the Character rising above the ground was fixed too. I just had to retarget the Animations again from the Mixamo model 
 to the UE4 mannequin. Not sure why it didn't work properly the last time.
 
+You can view the code of the project [here](https://github.com/1Gokul/MedievalCombatProject)!
+
 
 
