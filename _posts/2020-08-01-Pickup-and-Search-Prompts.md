@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Pickup and Search Prompts"
 categories: "MedievalCombat"
 ---

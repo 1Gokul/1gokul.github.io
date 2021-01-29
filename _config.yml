@@ -95,10 +95,13 @@ analytics:
 author:
   name             : "Gokul Viswanath"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "3rd year Computer Engineering student looking to make a career in Game Development. Currently learning Unreal Engine 4 and Blender."
+  bio              : "3rd year Computer Engineering student building my skills in Web Development. Also making games with Unreal Engine 4 on the side."
   location         : "Pune, MH"
   email            :
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/gokul-viswanath-31383b193/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:xskiddmcmarx@gmail.com"
@@ -114,10 +117,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/1gokul"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
+    
 # Site Footer
 footer:
   links:
@@ -195,6 +195,7 @@ kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
+  toc: true
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
@@ -254,9 +255,9 @@ tag_archive:
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -280,3 +281,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
+      toc_sticky: true      
+      toc_label: "Page Contents"
+      toc_icon: "map"

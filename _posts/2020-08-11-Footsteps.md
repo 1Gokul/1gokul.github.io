@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Footsteps!"
 categories: "MedievalCombat"
 ---

@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Character Movement and HUD"
 categories: "MedievalCombat"
 ---

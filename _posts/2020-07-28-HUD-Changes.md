@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "HUD Changes, TwoHanded fixes"
 categories: "MedievalCombat"
 ---

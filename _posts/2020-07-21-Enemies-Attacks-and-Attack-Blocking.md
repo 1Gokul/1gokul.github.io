@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Enemies, Enemy Attacks and Attack Blocking"
 categories: "MedievalCombat"
 ---

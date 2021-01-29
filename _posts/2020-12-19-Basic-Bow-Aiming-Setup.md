@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Basic Bow Aiming Setup"
 categories: "MedievalCombat"
 ---

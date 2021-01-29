@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Movement Updates"
 categories: "MedievalCombat"
 ---

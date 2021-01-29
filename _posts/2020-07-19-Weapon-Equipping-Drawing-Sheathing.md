@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Weapon Sheathing and Drawing"
 categories: "MedievalCombat"
 ---

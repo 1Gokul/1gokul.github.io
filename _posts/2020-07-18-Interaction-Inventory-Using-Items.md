@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Interaction, Inventory and Using Items"
 categories: "MedievalCombat"
 ---

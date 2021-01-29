@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Character Idle Animations"
 categories: "MedievalCombat"
 ---

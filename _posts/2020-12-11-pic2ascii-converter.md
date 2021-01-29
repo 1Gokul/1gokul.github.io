@@ -1,5 +1,4 @@
 ---
-layout: posts
 title: "Image to ASCII converter website using Python and Flask"
 categories: "Pic2ASCII"
 ---
@@ -8,7 +7,8 @@ categories: "Pic2ASCII"
 
 This, along with [insertcoin](https://1gokul.github.io/insertcoin-store/2020-12-06/insertcoin-login-system/) was also made as a college project. This one was made in collaboration with my classmate, [Shubham Bhagwat](https://shubhamxb.github.io/). 
 
-## The Project
+
+# The Project
 
 The project was called **"Pic2ASCII"**. Self-explanatory title, it would just convert any image that you upload into an ASCII-fied image or text. The PlayStation logo below is an example:
 
